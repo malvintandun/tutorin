@@ -20,7 +20,7 @@
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!--Brand -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="main.html">
       <img src="icon.svg" width="30" height="30" class="d-inline-block align-top" alt="icon" />
       TutorIn
     </a>
@@ -42,7 +42,7 @@
 
         <!-- Links -->
         <li class="navbar-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="main.html">Home</a>
         </li>
         <li class="navbar-item">
           <a class="nav-link" href="#">Inbox</a>
@@ -82,11 +82,12 @@
   <script></script>
 
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 ml-3 mr-3">
+
     <!--Card #1-->
     <div class="col mb-3">
       <div class="card">
         <a class="card-block stretched-link text-decoration-none text-secondary" href="#" data-toggle="modal"
-          data-target="#exampleModalCenter">
+          data-target="#modalMalvin">
           <img src="img/pin.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Malvin Tandun</h5>
@@ -106,7 +107,7 @@
     <div class="col mb-3">
       <div class="card">
         <a class="card-block stretched-link text-decoration-none text-secondary" href="#" data-toggle="modal"
-          data-target="#exampleModalCenter">
+          data-target="#modalOpug">
           <img src="img/pug.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Joshua Puglisi</h5>
@@ -125,7 +126,7 @@
     <div class="col mb-3">
       <div class="card">
         <a class="card-block stretched-link text-decoration-none text-secondary" href="#" data-toggle="modal"
-          data-target="#exampleModalCenter">
+          data-target="#modalPen">
           <img src="img/pen.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Penske Williano</h5>
@@ -145,7 +146,7 @@
     <div class="col mb-3">
       <div class="card">
         <a class="card-block stretched-link text-decoration-none text-secondary" href="#" data-toggle="modal"
-          data-target="#exampleModalCenter">
+          data-target="#modalMing">
           <img src="img/ming.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Ming Nando</h5>
@@ -162,27 +163,111 @@
     </div>
   </div>
 
-  <!--Modals -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  <!--#############################################################################################################-->
+
+  <!--Modals Malvin-->
+  <div class="modal fade" id="modalMalvin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalCenterTitle">
-            Modal title
+            Malvin Tandun
           </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <span class="badge badge-pill badge-dark">Programming 1</span>
+          <span class="badge badge-pill badge-info">CS:GO</span>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
             Close
           </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <a role="button" class="btn btn-success" href="chat.html">Start Session</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal Jospug-->
+  <div class="modal fade" id="modalOpug" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">
+            Joshua Puglisi
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <span class="badge badge-pill badge-success">Programming 2</span>
+          <span class="badge badge-pill badge-danger">Artificial Waifus</span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+          <a role="button" class="btn btn-success" href="chat.html">Start Session</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal Penske-->
+  <div class="modal fade" id="modalPen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">
+            Penske Williano
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <span class="badge badge-pill badge-success">Programming 2</span>
+          <span class="badge badge-pill badge-warning">Pirate King Ruffy</span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+          <a role="button" class="btn btn-success" href="chat.html">Start Session</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal Ming-->
+  <div class="modal fade" id="modalMing" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">
+            Ming Nando
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <span class="badge badge-pill badge-primary">GBS</span>
+          <span class="badge badge-pill badge-secondary">Karstadt Profi</span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+          <a role="button" class="btn btn-success" href="chat.html">Start Session</a>
         </div>
       </div>
     </div>
